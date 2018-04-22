@@ -27,12 +27,17 @@
 
 # print (f'the annual rainfall is : {annual_rainfall:.3f}')
 
-cucumbers = 100
-num_people = 6
+# cucumbers = 100
+# num_people = 6
 
-whole_cucumbers_per_person = cucumbers / num_people
-print (whole_cucumbers_per_person)
+# whole_cucumbers_per_person = cucumbers / num_people
+# print (whole_cucumbers_per_person)
 
-float_cucumbers_per_person = cucumbers/num_people
-print (float_cucumbers_per_person)
+# float_cucumbers_per_person = cucumbers/num_people
+# print (float_cucumbers_per_person)
+
+address_string = """136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""
+print (address_string)
 
