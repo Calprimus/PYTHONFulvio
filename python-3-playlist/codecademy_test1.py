@@ -41,30 +41,125 @@
 # Whosville, WZ 44494"""
 # print (address_string)
 
-"""plan your trip"""
+# """plan your trip"""
 
-def hotel_cost(nights):
-  return 140 * nights
+# def hotel_cost(nights):
+#   return 140 * nights
 
-def plane_ride_cost(city):
-  if city == "Charlotte":
-    return 183
-  elif city == "Tampa":
-    return 220
-  elif city == "Pittsburgh":
-    return 222
-  elif city == "Los Angeles":
-    return 475
+# def plane_ride_cost(city):
+#   if city == "Charlotte":
+#     return 183
+#   elif city == "Tampa":
+#     return 220
+#   elif city == "Pittsburgh":
+#     return 222
+#   elif city == "Los Angeles":
+#     return 475
 
-def rental_car_cost(days):
-  cost = days * 40
-  if days >= 7:
-    cost -= 50
-  elif days >= 3:
-    cost -= 20
-  return cost
+# def rental_car_cost(days):
+#   cost = days * 40
+#   if days >= 7:
+#     cost -= 50
+#   elif days >= 3:
+#     cost -= 20
+#   return cost
 
-def trip_cost(city, days, spending_money):
-  return rental_car_cost(days)+hotel_cost(days -1)+plane_ride_cost(city)+spending_money
+# def trip_cost(city, days, spending_money):
+#   return rental_car_cost(days)+hotel_cost(days -1)+plane_ride_cost(city)+spending_money
 
-print (trip_cost("Los Angeles", 5, 600))
+# print (trip_cost("Los Angeles", 5, 600))
+
+# for letter in "Codecademy":
+#       print (letter)
+    
+# # Empty lines to make the output pretty
+# print()
+# print()
+
+# word = "Programming is fun!"
+
+# for letter in word:
+#   # Only print out the letter i
+#   if letter == "i":
+#     print (letter)
+
+# once  = {'a': 1, 'b': 2}
+# twice = {'a': 2, 'b': 4}
+# for key in once:
+#       print(key)
+#       print ("Once: %s" % once[key])
+#       print ("Twice: %s" % twice[key])
+
+# prices = {
+#   "banana" : 4,
+#   "apple"  : 2,
+#   "orange" : 1.5,
+#   "pear"   : 3,
+# }
+# stock = {
+#   "banana" : 6,
+#   "apple"  : 0,
+#   "orange" : 32,
+#   "pear"   : 15,
+# }
+
+# for key in prices:
+#   print (key)
+#   print ("price: %s" % prices[key])
+#   print ("stock: %s" % stock[key])
+  
+# total = 0
+
+# for key in prices:
+#   print (prices[key]*stock[key])
+#   total = total + prices[key]*stock[key]
+
+# print (total)
+
+# shopping_list = ["banana", "orange", "apple"]
+
+# stock = {
+#   "banana": 6,
+#   "apple": 0,
+#   "orange": 32,
+#   "pear": 15
+# }
+    
+# prices = {
+#   "banana": 4,
+#   "apple": 2,
+#   "orange": 1.5,
+#   "pear": 3
+# }
+
+# # Write your code below!
+# def compute_bill(food):
+#   total = 0
+#   for item in food:
+#     total = total + food[item]
+#     return total
+
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+  "banana": 6,
+  "apple": 0,
+  "orange": 32,
+  "pear": 15
+}
+    
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+    total = 0
+    for key in food:
+      if stock[key] > 0:
+        total += prices[key]
+        stock[key] -= 1
+    return total
