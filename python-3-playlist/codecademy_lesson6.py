@@ -38,7 +38,7 @@ tyler = {
   "tests": [100.0, 100.0]
 }
 
-students = [lloyd, alice, tyler]
+
 
 # print the student's name
 # print the student's homework
@@ -54,13 +54,13 @@ students = [lloyd, alice, tyler]
 # division = 5 / 2
 # print (division)
 
-numbers = [1,3,5,6,7,8]
+# numbers = [1,3,5,6,7,8]
 def average(numbers):
   total = sum(numbers)
   total = float(total)
   return total / len(numbers)
 
-print(average (numbers))
+# print(average (numbers))
 
 def get_average (student):
   homework = 0.1 * average(student["homework"])
@@ -86,5 +86,18 @@ def get_letter_grade (score):
     return "F"
   
 
-print(get_letter_grade(get_average(lloyd)))
+# print(get_letter_grade(get_average(lloyd)))
 
+class_list = [lloyd, alice, tyler]
+
+
+def get_class_average(class_list):
+  results = []
+  for student in class_list:
+       results.append(get_average(student))
+  return average(results)
+print(f'{get_class_average(class_list):.3}')
+
+students = [lloyd, alice, tyler] 
+print (get_class_average(students))
+print (get_letter_grade(get_class_average(students)))
