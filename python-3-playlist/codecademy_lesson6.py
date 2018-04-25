@@ -37,3 +37,39 @@ tyler = {
   "quizzes": [0.0, 75.0, 78.0],
   "tests": [100.0, 100.0]
 }
+
+students = [lloyd, alice, tyler]
+
+# print the student's name
+# print the student's homework
+# print the student's quizzes
+# print the student's tests
+
+# for student in students:
+#   print(student["name"])
+#   print(student["homework"])
+#   print(student["quizzes"])
+#   print(student["tests"])
+
+# division = 5 / 2
+# print (division)
+
+numbers = [1,3,5,6,7,8]
+def average(numbers):
+  total = sum(numbers)
+  total = float(total)
+  return total / len(numbers)
+
+print(average (numbers))
+
+def get_average (student):
+  homework = 0.1 * average(student["homework"])
+  quizzes = 0.3 * average(student["quizzes"])
+  tests = 0.6 * average(student["tests"])
+  return homework + quizzes + tests
+
+stdres = get_average(alice)
+print(f'num is {stdres:.4}')
+
+print(f'{get_average(alice):.4}')
+
