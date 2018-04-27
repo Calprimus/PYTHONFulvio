@@ -25,3 +25,4 @@ print(random_col(board))
 print(random_row(board))
 
 print_board(board)
+print_board(board)
