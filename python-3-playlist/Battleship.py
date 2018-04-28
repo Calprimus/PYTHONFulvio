@@ -18,11 +18,18 @@ def random_row(board_in):
 def random_col(board_in):
     return randint(0, len(board_in) - 1)
 
-ship_col = random_col(board)
 ship_row = random_row(board)
+ship_col = random_col(board)
 
-print(random_col(board))
+print (ship_row)
+print (ship_col)
+
+guess_row = int(input("Guess Row: "))
+guess_col = int(input("Guess Col: "))
+
+
 print(random_row(board))
+print(random_col(board))
 
-print_board(board)
+
 print_board(board)
