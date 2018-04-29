@@ -124,16 +124,31 @@
 #     print (char, end="") 
 
 # >>>> 13/19
-numbers  = [7, 9, 12, 54, 99]
+# numbers  = [7, 9, 12, 54, 99]
 
-print ("This list contains: ")
+# print ("This list contains: ")
 
-for num in numbers:
-  print (num)
+# for num in numbers:
+#   print (num)
 
-# Add your loop below!
-for num in numbers:
-  nsq = num**2
-  print (nsq)
+# # Add your loop below!
+# for num in numbers:
+#   nsq = num**2
+#   print (nsq)
 
+# >>>> 14/19
+# d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+# for key in d:
+#   # Your code here!
+#   print (key, d[key], end = " ")
+
+# >>>> 19/19
+books = ["Foundation", "Star Wars", "War and Peace"]
+
+for book in books:
+    if book == "Inferno":
+        print ("Bloody Hell")
+    else: 
+        print ("That's heavy stuff!")  
 
