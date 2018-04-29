@@ -63,23 +63,43 @@
 #   print ("You win!")
 
 # >>>> 8/19
-from random import randint
-# Generates a number from 1 through 10 inclusive
-random_number = randint(1, 10)
-print (random_number)
+# from random import randint
+# # Generates a number from 1 through 10 inclusive
+# random_number = randint(1, 10)
+# print (random_number)
 
-guesses_left = 3
-# Start your game!
+# guesses_left = 3
+# # Start your game!
 
-while guesses_left > 0:
-    guess = int(input("Your guess: "))
+# while guesses_left > 0:
+#     guess = int(input("Your guess: "))
     
-    if guess == random_number:
-        print("You win!")
-        break
-    guesses_left -= 1    
-    print("You have ", guesses_left, "guesses left")
-else:
-    print("Sorry, you lose!") 
+#     if guess == random_number:
+#         print("You win!")
+#         break
+#     guesses_left -= 1    
+#     print("You have ", guesses_left, "guesses left")
+# else:
+#     print("Sorry, you lose!") 
+
+# >>>> 9/19
+# print "Counting..."
+
+# for i in range(20):
+#   print i
+
+# >>>> 10/19
+# hobbies = []
+
+# # Add your code below!
+
+# for answer in range (3):
+#     answer = input("And your hobby is: ")
+#     hobby = answer
+#     hobbies.append(hobby)
+
+# print (hobbies)
+
+# >>>> 11/19
 
 
