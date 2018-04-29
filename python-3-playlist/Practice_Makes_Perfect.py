@@ -26,14 +26,26 @@
 # print(digit_sum(23))
 
 # >>>> 5/15
-def factorial(x):
-    if x ==0:
-        return 1
-    else:
-        return x*factorial(x-1)
+# def factorial(x):
+#     if x ==0:
+#         return 1
+#     else:
+#         return x*factorial(x-1)
 
-print(factorial(4))     
+# print(factorial(4))     
 
 # >>>> 6/15    
-        
-        
+# def is_prime(x):
+#     if x<=1:
+#         return False
+#     for n in range (2, x-1):
+#         if x%n == 0:
+#             return False
+#         else:
+#             return True
+
+# print((is_prime(1)))
+          
+# >>>> 7/15
+
+         
