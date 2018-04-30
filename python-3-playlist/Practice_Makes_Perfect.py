@@ -57,13 +57,20 @@
 # print(printout)
    
 # >>>> 8/15
-def anti_vowel(text):
-    removed = text
-    vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-    for char1 in text:
-        for char2 in vowel:
-            if char1 == char2:
-                removed = removed.replace(char1, "")
-    return removed
+# def anti_vowel(text):
+#     removed = text
+#     vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+#     for char1 in text:
+#         for char2 in vowel:
+#             if char1 == char2:
+#                 removed = removed.replace(char1, "")
+#     return removed
 
-print(anti_vowel("Irma la dolce"))            
+# print(anti_vowel("Irma la dolce")) 
+
+# >>>> 9/15
+score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2, 
+         "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3, 
+         "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1, 
+         "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
+         "x": 8, "z": 10}          
