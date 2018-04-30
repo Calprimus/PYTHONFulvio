@@ -57,7 +57,6 @@
 # print(printout)
    
 # >>>> 8/15
-
 def anti_vowel(text):
     removed = text
     vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
