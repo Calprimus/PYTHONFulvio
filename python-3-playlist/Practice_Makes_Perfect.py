@@ -56,3 +56,15 @@ def reverse(text):
 printout= reverse("abcd")
 print(printout)
    
+# >>>> 8/15
+
+def anti_vowel(text):
+    removed = text
+    vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    for char1 in text:
+        for char2 in vowel:
+            if char1 == char2:
+                removed = removed.replace(char1, "")
+    return removed
+
+print(anti_vowel("Irma la dolce"))            
