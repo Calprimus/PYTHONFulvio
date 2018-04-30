@@ -48,7 +48,11 @@
           
 # >>>> 7/15
 def reverse(text):
-    return reversed(text)
-        
-out = reverse("tesoro")
-print(out)         
+    rev = ""
+    for x in text:
+        rev = x + rev
+    return rev
+
+printout= reverse("abcd")
+print(printout)
+   
