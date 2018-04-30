@@ -47,14 +47,14 @@
 # print((is_prime(1)))
           
 # >>>> 7/15
-def reverse(text):
-    rev = ""
-    for x in text:
-        rev = x + rev
-    return rev
+# def reverse(text):
+#     rev = ""
+#     for x in text:
+#         rev = x + rev
+#     return rev
 
-printout= reverse("abcd")
-print(printout)
+# printout= reverse("abcd")
+# print(printout)
    
 # >>>> 8/15
 
