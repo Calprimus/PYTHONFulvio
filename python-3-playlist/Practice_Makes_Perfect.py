@@ -47,5 +47,8 @@
 # print((is_prime(1)))
           
 # >>>> 7/15
-
-         
+def reverse(text):
+    return reversed(text)
+        
+out = reverse("tesoro")
+print(out)         
