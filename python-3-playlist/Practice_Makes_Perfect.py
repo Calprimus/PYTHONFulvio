@@ -128,12 +128,45 @@
 # print(product([4,5,5]))  #   
 
 # >>>> 14/15
-def remove_duplicates(original_list):
-    new_list = []
-    for n in original_list:
-        if n not in new_list:
-            new_list.append(n)
-    return new_list
+# def remove_duplicates(original_list):
+#     new_list = []
+#     for n in original_list:
+#         if n not in new_list:
+#             new_list.append(n)
+#     return new_list
 
-print (remove_duplicates([1,1,2,2,3,3]))    
+# print (remove_duplicates([1,1,2,2,3,3]))    
 
+# >>>> 15/15
+# this one works in the modern python 3.6
+# def median(lista):
+#     lista = sorted(lista)
+#     howmany = len(lista)
+#     if howmany % 2 == 1:
+#         pos = int(howmany / 2)
+#         return lista[pos]
+#     else:
+#         pos = int(howmany /2)
+#         return lista[pos] + lista[pos -1] /2
+
+# print(median([4,5,5,4]))
+# >>>> this one worked in the cocademy terminal (python v 2.7)
+# def median(lista):
+#     lista= sorted(lista)
+#     lenght= len(lista)
+#     middle = lenght / 2
+#     if lenght % 2 == 0:
+#         return (lista[middle] + lista[middle+1])/2
+#     else:
+#         return lista[middle]
+
+# print(median([4,5,5,4]))
+
+def median(list_num):
+    s = sorted(list_num)
+    if len(s)%2 == 0:
+        return (s[len(s)/2] + s[(len(s)/2) - 1]) / 2.0
+    else: 
+        return s[(len(s)-1)/2]
+
+print(median([4,5,5,4]))
