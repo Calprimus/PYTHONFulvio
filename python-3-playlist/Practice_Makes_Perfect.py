@@ -109,5 +109,13 @@
 # print (count([1,2,5,3,2,1,2,1,1], 1))
 
 # >>>> 12/15
+# def purify(numbers):
+#     new_list = []
+#     for n in numbers:
+#         if n % 2 == 0:
+#             new_list.append(n)
+#     return new_list
 
+# print(purify([4,5,6,7,8,9]))    
 
+# >>>> 13/15
