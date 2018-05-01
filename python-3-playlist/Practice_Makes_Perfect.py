@@ -90,3 +90,13 @@
 # key = list(score.keys())[0]
 # print(key)
 
+# >>>> 10/15
+# def censor(text, word):
+#     if word in text:
+#         newtext = text.replace(word, '*' * (len(word)))
+#     return newtext
+
+# print (censor("una colta nella vita cera una bella vita", "vita"))
+
+# >>>> 11/15
+
