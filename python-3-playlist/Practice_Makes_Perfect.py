@@ -125,8 +125,15 @@
 #         total =n * total
 #     return total
 
-# print(product([4,5,5]))    
+# print(product([4,5,5]))  #   
 
 # >>>> 14/15
+def remove_duplicates(original_list):
+    new_list = []
+    for n in original_list:
+        if n not in new_list:
+            new_list.append(n)
+    return new_list
 
+print (remove_duplicates([1,1,2,2,3,3]))    
 
