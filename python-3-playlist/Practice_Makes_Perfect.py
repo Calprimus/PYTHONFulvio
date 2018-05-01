@@ -99,4 +99,15 @@
 # print (censor("una colta nella vita cera una bella vita", "vita"))
 
 # >>>> 11/15
+# def count(sequence, item):
+#     total = 0
+#     for x in sequence:
+#         if x == item:
+#             total += 1
+#     return total
+
+# print (count([1,2,5,3,2,1,2,1,1], 1))
+
+# >>>> 12/15
+
 
