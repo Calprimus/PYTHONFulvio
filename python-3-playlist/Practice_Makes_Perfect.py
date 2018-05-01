@@ -119,3 +119,14 @@
 # print(purify([4,5,6,7,8,9]))    
 
 # >>>> 13/15
+# def product(numbers):
+#     total = 1
+#     for n in numbers:
+#         total =n * total
+#     return total
+
+# print(product([4,5,5]))    
+
+# >>>> 14/15
+
+
