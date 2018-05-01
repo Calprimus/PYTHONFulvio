@@ -161,12 +161,3 @@
 #         return lista[middle]
 
 # print(median([4,5,5,4]))
-
-def median(list_num):
-    s = sorted(list_num)
-    if len(s)%2 == 0:
-        return (s[len(s)/2] + s[(len(s)/2) - 1]) / 2.0
-    else: 
-        return s[(len(s)-1)/2]
-
-print(median([4,5,5,4]))
