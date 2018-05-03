@@ -31,21 +31,33 @@
 # print (my_dict.keys())
 # print (my_dict.values())
 
-# >>>> 3/18
+# >>>> Explanation 3/18
 # examples of "in" operator
-for number in range(5):
-  print (number, end = "")
+# for number in range(5):
+#   print (number, end = "")
 
-d = { 
-  "name": "Eric",
-  "age": 26
+# d = { 
+#   "name": "Eric",
+#   "age": 26
+# }
+
+# for key in d:
+#   print (key, d[key], end = "")
+
+# for letter in "Eric":
+#   print (letter, end = "")  
+#   # python2 print on the same line comma at the end
+#   # python 3 print on the same line [[, end = ""]]
+
+# >>>> 3/18
+my_dict = {
+  "Name": "Jules",
+  "Age": 8,
+  "Eyes": "Brown",
+  "Good?": True
 }
 
-for key in d:
-  print (key, d[key], end = "")
+for key in my_dict:
+    print(key, my_dict[key])
 
-for letter in "Eric":
-  print (letter, end = "")  
-  # python2 print on the same line comma at the end
-  # python 3 print on the same line [[, end = ""]]
-
+# >>>> 4/18
