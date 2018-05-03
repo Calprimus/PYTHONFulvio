@@ -50,14 +50,25 @@
 #   # python 3 print on the same line [[, end = ""]]
 
 # >>>> 3/18
-my_dict = {
-  "Name": "Jules",
-  "Age": 8,
-  "Eyes": "Brown",
-  "Good?": True
-}
+# my_dict = {
+#   "Name": "Jules",
+#   "Age": 8,
+#   "Eyes": "Brown",
+#   "Good?": True
+# }
 
-for key in my_dict:
-    print(key, my_dict[key])
+# for key in my_dict:
+#     print(key, my_dict[key])
 
-# >>>> 4/18
+# >>>> 4/18 Text Explanation - List Comprehension 
+# if we wanted to generate a list according to some logic
+# —for example, a list of all the even numbers from 0 to 50?
+
+# Python's answer to this is the list comprehension. 
+# List comprehensions are a powerful way to generate lists 
+# using the for/in and if keywords we've learned.
+
+# evens_to_50 = [i for i in range(51) if i % 2 == 0]
+# print (evens_to_50)
+
+# >>>> 5/18
