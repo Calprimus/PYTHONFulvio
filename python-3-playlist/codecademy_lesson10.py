@@ -142,3 +142,12 @@
 # print(backwards_by_tens)
 
 # >>>> 11/18
+# to_21 = range(1,22)
+# odds = list(to_21[::2])
+# middle_third = to_21[7:14] 
+
+# print(odds)
+# print(middle_third)
+
+# >>>> 12/18
+
