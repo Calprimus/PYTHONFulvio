@@ -157,7 +157,22 @@
 # def by_three(x):
 #   return x % 3 == 0
 
-my_list = range(16)
-print (list(filter(lambda x: x % 3 == 0, my_list)))
+# my_list = range(16)
+# print (list(filter(lambda x: x % 3 == 0, my_list)))
 
+# >>>> 13/18
+# Lambda functions are defined using the following syntax:
+
+# my_list = range(16)
+# filter(lambda x: x % 3 == 0, my_list)
+
+# Lambdas are useful when you need a quick function 
+# to do some work for you.
+
+languages = ["HTML", "JavaScript", "Python", "Ruby"]
+
+# Add arguments to the filter()
+print (list(filter(lambda x: x == "Python", languages)))
+
+# >>>> 14/18
 
