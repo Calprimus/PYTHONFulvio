@@ -106,14 +106,30 @@
 # print (l[2:9:2])
 
 # >>>> 8/18
-to_five = ['A', 'B', 'C', 'D', 'E']
+# to_five = ['A', 'B', 'C', 'D', 'E']
 
-print (to_five[3:])
-# prints ['D', 'E'] 
+# print (to_five[3:])
+# # prints ['D', 'E'] 
 
-print (to_five[:2])
-# prints ['A', 'B']
+# print (to_five[:2])
+# # prints ['A', 'B']
 
-print (to_five[::2])
-# print ['A', 'C', 'E']
+# print (to_five[::2])
+# # print ['A', 'C', 'E']
 
+# >>>> 9/18
+# letters = ['A', 'B', 'C', 'D', 'E']
+# print (letters[::-1])
+
+# my_list = range(1, 11)
+# print (my_list)
+
+# # this is the version 2.7 and the one which works in codecademy
+# backwards = my_list[::-1]
+# print (backwards)
+
+# # this is version 3.6
+# backwards = list(reversed(my_list))
+# print (backwards)
+
+# >>>> 10/18
