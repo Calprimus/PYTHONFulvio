@@ -150,4 +150,14 @@
 # print(middle_third)
 
 # >>>> 12/18
+# lambda x: x % 3 == 0
+
+# # Is the same as
+
+# def by_three(x):
+#   return x % 3 == 0
+
+my_list = range(16)
+print (list(filter(lambda x: x % 3 == 0, my_list)))
+
 
