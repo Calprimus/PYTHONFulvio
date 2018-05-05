@@ -169,10 +169,20 @@
 # Lambdas are useful when you need a quick function 
 # to do some work for you.
 
-languages = ["HTML", "JavaScript", "Python", "Ruby"]
+# languages = ["HTML", "JavaScript", "Python", "Ruby"]
 
-# Add arguments to the filter()
-print (list(filter(lambda x: x == "Python", languages)))
+# # Add arguments to the filter()
+# print (list(filter(lambda x: x == "Python", languages)))
 
 # >>>> 14/18
+# cubes = [x ** 3 for x in range(1, 11)]
+# filter(lambda x: x % 3 == 0, cubes)
 
+# print(list(filter(lambda x: x % 3 == 0, cubes)))
+
+# squares = [x ** 2 for x in range(1, 11)]
+# print(squares)
+
+# print(list(filter(lambda x: x >= 30 and x <=70 , squares)))
+
+# >>>> 15/18
