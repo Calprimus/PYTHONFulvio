@@ -201,4 +201,10 @@
 # print(threes_and_fives)
 
 # >>>>17/18
+# garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+
+# message = garbled[::-2]
+# print(message)
+
+# >>>> 18/18
 
