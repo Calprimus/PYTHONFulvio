@@ -99,10 +99,21 @@
 # print (cubes_by_four)
 
 # >>>> 7/18
-l = [i ** 2 for i in range(1, 11)]
-print(l)
-# Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# l = [i ** 2 for i in range(1, 11)]
+# print(l)
+# # Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-print (l[2:9:2])
+# print (l[2:9:2])
 
 # >>>> 8/18
+to_five = ['A', 'B', 'C', 'D', 'E']
+
+print (to_five[3:])
+# prints ['D', 'E'] 
+
+print (to_five[:2])
+# prints ['A', 'B']
+
+print (to_five[::2])
+# print ['A', 'C', 'E']
+
