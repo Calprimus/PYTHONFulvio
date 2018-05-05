@@ -186,10 +186,19 @@
 # print(list(filter(lambda x: x >= 30 and x <=70 , squares)))
 
 # >>>> 15/18
-movies = {
-  "Monty Python and the Holy Grail": "Great",
-  "Monty Python's Life of Brian": "Good",
-  "Monty Python's Meaning of Life": "Okay"
-}
+# movies = {
+#   "Monty Python and the Holy Grail": "Great",
+#   "Monty Python's Life of Brian": "Good",
+#   "Monty Python's Meaning of Life": "Okay"
+# }
 
-print(movies.items())
+# print(movies.items())
+
+# >>>> 16/18
+# squares = [x ** 2 for x in range(5)]
+
+# threes_and_fives = [ x for x in range(1, 16) if x%3 == 0 or x%5== 0]
+# print(threes_and_fives)
+
+# >>>>17/18
+
