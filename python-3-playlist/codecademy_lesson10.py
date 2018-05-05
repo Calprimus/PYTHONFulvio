@@ -133,3 +133,12 @@
 # print (backwards)
 
 # >>>> 10/18
+# to_one_hundred = range(101)
+# backwards_by_tens = to_one_hundred[::-10]
+
+
+# to_one_hundred = range(101)
+# backwards_by_tens = list(to_one_hundred[::-10])
+# print(backwards_by_tens)
+
+# >>>> 11/18
