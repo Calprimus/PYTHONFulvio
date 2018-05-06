@@ -60,13 +60,23 @@
 # print (bin(5))
 
 # >>>> 5/14
-print (int("1",2))
-print (int("10",2))
-print (int("111",2))
-print (int("0b100",2))
-print (int(bin(5),2))
-# Print out the decimal equivalent of the binary 11001001.
-print (int("11001001", 2))
+# print (int("1",2))
+# print (int("10",2))
+# print (int("111",2))
+# print (int("0b100",2))
+# print (int(bin(5),2))
+# # Print out the decimal equivalent of the binary 11001001.
+# print (int("11001001", 2))
 
 # >>>> 6/14
+shift_right = 0b1100
+shift_left = 0b1
 
+# Your code here!
+shift_right = 0b1100 >> 2
+shift_left = 0b1 << 2
+
+print (bin(shift_right))
+print (bin(shift_left))
+
+# >>>> 7/14
