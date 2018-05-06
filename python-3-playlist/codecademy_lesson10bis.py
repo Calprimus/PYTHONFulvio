@@ -88,5 +88,13 @@
 # print(int(bino, 2))
 
 # >>>> 9/14
-bino = bin(0b1110 ^ 0b101)
-print(int(bino, 2))
+# bino = bin(0b1110 ^ 0b101)
+# print(int(bino, 2))
+
+# >>>> 10/14
+print (~1)
+print (~2)
+print (~3)
+print (~42)
+print (~123)
+
