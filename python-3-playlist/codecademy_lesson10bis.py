@@ -92,9 +92,31 @@
 # print(int(bino, 2))
 
 # >>>> 10/14
-print (~1)
-print (~2)
-print (~3)
-print (~42)
-print (~123)
+# print (~1)
+# print (~2)
+# print (~3)
+# print (~42)
+# print (~123)
 
+# >>>> 11/14
+# num  = 0b1100
+# mask = 0b0100
+# desired = num & mask
+# if desired > 0:
+#   print ("Bit was on")
+
+# print (bin(7))
+# print (int("111",2))
+
+def check_bit4(input):
+    num = input
+    mask = 0b1000
+    result = num & mask
+    if result > 0:
+        return "on"
+    else:
+        return "off"
+
+print(check_bit4(8)) 
+
+# >>>> 12/14
