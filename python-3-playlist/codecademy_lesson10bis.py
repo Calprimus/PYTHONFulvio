@@ -136,8 +136,17 @@
 # print(int(bino, 2))
 # ------> only the ones in for each, not both 0b1011
 #--------------------------------------------------------
-a = 0b10111011
-mask = 0b100
-result = a | mask
+# a = 0b10111011
+# mask = 0b100
+# result = a | mask
+# print(bin(result)) 
+
+# >>>> 13/14
+a = 0b11101110
+mask = 0b11111111
+result = a ^ mask
 print(bin(result)) 
+
+# >>>> 14/14
+
 
