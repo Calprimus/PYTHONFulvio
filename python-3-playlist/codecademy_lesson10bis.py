@@ -7,4 +7,13 @@
 # print (~88)     # Bitwise NOT
 
 # >>>> 2/14
-
+print(0b1, end = " ")
+print (0b10, end = " ")
+print (0b11, end = " ")
+print (0b100, end = " ")
+print (0b101, end = " ")
+print (0b110, end = " ")
+print (0b111)
+print ("******")
+print (0b1 + 0b11)
+print (0b11 * 0b11)
