@@ -69,14 +69,18 @@
 # print (int("11001001", 2))
 
 # >>>> 6/14
-shift_right = 0b1100
-shift_left = 0b1
+# shift_right = 0b1100
+# shift_left = 0b1
 
-# Your code here!
-shift_right = 0b1100 >> 2
-shift_left = 0b1 << 2
+# # Your code here!
+# shift_right = 0b1100 >> 2
+# shift_left = 0b1 << 2
 
-print (bin(shift_right))
-print (bin(shift_left))
+# print (bin(shift_right))
+# print (bin(shift_left))
 
 # >>>> 7/14
+bino = bin(0b1110 & 0b101)
+print(int(bino, 2))
+
+# >>>> 8/14
