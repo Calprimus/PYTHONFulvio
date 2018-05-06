@@ -142,11 +142,20 @@
 # print(bin(result)) 
 
 # >>>> 13/14
-a = 0b11101110
-mask = 0b11111111
-result = a ^ mask
-print(bin(result)) 
+# a = 0b11101110
+# mask = 0b11111111
+# result = a ^ mask
+# print(bin(result)) 
 
 # >>>> 14/14
+# a = 0b101 
+# # Tenth bit mask
+# mask = (0b1 << 9)  # One less than ten 
+# desired = a ^ mask
 
-
+def flip_bit(number, n):
+    a = number
+    mask = (0b1 << n-1)
+    result = a ^ mask
+    return bin(result)
+print(flip_bit(5, 3))
