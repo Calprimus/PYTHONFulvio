@@ -39,17 +39,34 @@
 #     1       0       1      0 
 #     8   +   0    +  2   +  0  = 10 
 
-one = 0b1
-two = 0b10
-three = 0b11
-four = 0b100
-five = 0b101
-six = 0b110
-seven = 0b111
-eight = 0b1000
-nine = 0b1001
-ten = 0b1010
-eleven = 0b1011
-twelve = 0b1100
+# one = 0b1
+# two = 0b10
+# three = 0b11
+# four = 0b100
+# five = 0b101
+# six = 0b110
+# seven = 0b111
+# eight = 0b1000
+# nine = 0b1001
+# ten = 0b1010
+# eleven = 0b1011
+# twelve = 0b1100
 
 # >>>> 4/14
+# print (bin(1))
+# print (bin(2))
+# print (bin(3))
+# print (bin(4))
+# print (bin(5))
+
+# >>>> 5/14
+print (int("1",2))
+print (int("10",2))
+print (int("111",2))
+print (int("0b100",2))
+print (int(bin(5),2))
+# Print out the decimal equivalent of the binary 11001001.
+print (int("11001001", 2))
+
+# >>>> 6/14
+
