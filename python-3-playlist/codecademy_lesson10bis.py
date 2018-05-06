@@ -108,15 +108,36 @@
 # print (bin(7))
 # print (int("111",2))
 
-def check_bit4(input):
-    num = input
-    mask = 0b1000
-    result = num & mask
-    if result > 0:
-        return "on"
-    else:
-        return "off"
+# def check_bit4(input):
+#     num = input
+#     mask = 0b1000
+#     result = num & mask
+#     if result > 0:
+#         return "on"
+#     else:
+#         return "off"
 
-print(check_bit4(8)) 
+# print(check_bit4(8)) 
 
 # >>>> 12/14
+#--------------------------------------------------------
+# 0b1110
+# 0b 101
+
+# bino = bin(0b1110 & 0b101)
+# print(int(bino, 2))
+# # ------> only the ones in common 0b0100
+
+# bino = bin(0b1110 | 0b101)
+# print(int(bino, 2))
+# # ------> all the ones in common 0b1111
+
+# bino = bin(0b1110 ^ 0b101)
+# print(int(bino, 2))
+# ------> only the ones in for each, not both 0b1011
+#--------------------------------------------------------
+a = 0b10111011
+mask = 0b100
+result = a | mask
+print(bin(result)) 
+
