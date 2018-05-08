@@ -105,3 +105,19 @@
 # print (panda.name, panda.age, panda.is_alive)
 
 # >>>> 8/18
+# class Animal(object):
+#     """Makes cute animals."""
+#     is_alive = True
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#   # Add your method here!
+#     def description(self):
+#         print(self.name)
+#         print(self.age)
+
+# hippo = Animal("joe", 34)
+# hippo.description()
+
+# >>>> 9/18
+ 
