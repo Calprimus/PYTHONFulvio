@@ -44,5 +44,12 @@
 # lemon.is_edible()
 
 # >>>> 2/18
-class Animal(object):
-  pass
+# class Animal(object):
+#   pass
+
+# >>>> 3/18
+# class Animal(object):
+#       def __init__(self):
+#     pass
+
+# >>>> 4/18
