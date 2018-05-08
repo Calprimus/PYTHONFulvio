@@ -53,3 +53,8 @@
 #     pass
 
 # >>>> 4/18
+# class Animal(object):
+#       def __init__(self, name):
+#     self.name = name
+
+# >>>> 5/18
