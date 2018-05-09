@@ -24,6 +24,18 @@
 # print(my_car.condition)
 
 # >>>> 5/11
+# class Car(object):
+#     condition = "new"
+#     def __init__(self, model, color, mpg):
+#         self.model = model
+#         self.color = color
+#         self.mpg = mpg
+
+# my_car = Car("DeLorean", "silver", 88)
+
+# print(my_car.model)
+
+# >>>> 6/11
 class Car(object):
     condition = "new"
     def __init__(self, model, color, mpg):
@@ -34,5 +46,8 @@ class Car(object):
 my_car = Car("DeLorean", "silver", 88)
 
 print(my_car.model)
+print(my_car.color)
+print(my_car.mpg)
 
-# >>>> 6/11
+# >>>> 7/11
+
