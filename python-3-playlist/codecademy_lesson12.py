@@ -10,4 +10,7 @@ for item in my_list:
 f.close()
 
 # >>>> 2/9
+my_file = open("output.txt", "r+")
+
+# >>>> 3/9
 
