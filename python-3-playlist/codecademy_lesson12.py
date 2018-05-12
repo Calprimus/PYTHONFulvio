@@ -24,11 +24,18 @@
 # my_file.close()
 
 # >>>> 4/9
-my_file = open("output.txt", "r+")
+# my_file = open("output.txt", "r+")
 
-print(my_file.read())
+# print(my_file.read())
 
-my_file.close()
+# my_file.close()
 
 # >>>> 5/9
+my_file = open("output.txt", "r")
+
+print(my_file.readline())
+print(my_file.readline())
+print(my_file.readline())
+
+my_file.close()
 
