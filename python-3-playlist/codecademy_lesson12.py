@@ -31,27 +31,34 @@
 # my_file.close()
 
 # >>>> 5/9
-my_file = open("output.txt", "r")
+# my_file = open("output.txt", "r")
 
-print(my_file.readline())
-print(my_file.readline())
-print(my_file.readline())
+# print(my_file.readline())
+# print(my_file.readline())
+# print(my_file.readline())
 
-my_file.close()
+# my_file.close()
 
-# >>>> 6/9
-# Use a file handler to open a file for writing
-write_file = open("text.txt", "w")
-
-
-# Open the file for reading
-read_file = open("text.txt", "r")
-
-# Write to the file
-write_file.write("Not closing files is VERY BAD.")
-write_file.close()
+# # >>>> 6/9
+# # Use a file handler to open a file for writing
+# write_file = open("text.txt", "w")
 
 
-# Try to read from the file
-print (read_file.read())
-read_file.close()
+# # Open the file for reading
+# read_file = open("text.txt", "r")
+
+# # Write to the file
+# write_file.write("Not closing files is VERY BAD.")
+# write_file.close()
+
+
+# # Try to read from the file
+# print (read_file.read())
+# read_file.close()
+
+# >>>> 7/9
+with open("text.txt", "w") as textfile:
+  textfile.write("Success!")
+
+# >>>> 8/9
+
