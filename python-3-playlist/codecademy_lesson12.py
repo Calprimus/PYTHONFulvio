@@ -57,8 +57,12 @@
 # read_file.close()
 
 # >>>> 7/9
-with open("text.txt", "w") as textfile:
-  textfile.write("Success!")
+# with open("text.txt", "w") as textfile:
+#   textfile.write("Success!")
 
 # >>>> 8/9
+my_file = open("text.txt", "w")
+with my_file as file:
+  file.write("Yo dude wsup")
+
 
